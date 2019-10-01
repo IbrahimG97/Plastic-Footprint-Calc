@@ -12,7 +12,10 @@
 
 plastic_items = ['straws','cups','bags']
 reusable_items = ['straws','cups','bags']
-
+Starbucks_savings = [x * 0.010]
+wholefoods_savings = [x * 0.005]
+plastic_consumptioncalc = ['Insert formula']
+National_average = ['Insert calc for national average']
 print('Welcome to the plastic footprint calc')
 print()
 print('This program is designed to show you how many pounds of plastic you can save yearly, monthly and weekly.')
