@@ -9,14 +9,20 @@
 
 #Start of project
 # Varibles are cups straws and bags
-
+plastic_straws= .42
+plastic_bags= 3
+plastic_cup= 8
 plastic_items = ['straws','cups','bags']
 reusable_items = ['straws','cups','bags']
-Starbucks_savings = [x * 0.010]
-wholefoods_savings = [x * 0.005]
+Starbucks_savings = 0.010
+wholefoods_savings = 0.005
 plastic_consumptioncalc = ['Insert formula']
 National_average = ['Insert calc for national average']
 print('Welcome to the plastic footprint calc')
 print()
 print('This program is designed to show you how many pounds of plastic you can save yearly, monthly and weekly.')
 print('This program can also show any monetary and planetary savings based on reusable choices.')
+print()
+print('Please select an item by typing its name. You can select straws, cups or bags.')
+
+
