@@ -15,8 +15,13 @@ Wholefoods.com, Starbucks.com , phys.org , vox.com , python.org, epa.gov
 Make sure you have python 3 installed on your computer.
 You can find the files to install python at python.org
 Once you have Python installed you will need to double click the plastic-footprint-calc.py to run the program
+
 Upon opening the program will ask you for an awnser to the question. What type of plastic have you used this week? (The calculator can only handle one item at this time). Your options are bags, cups, or straws
+
 Enter in your desired item and the calculator will ask you to estimate how many times you have used this item in a week.
+
 After inputting that information the calculator will show you the total amount of plastics in grams that you haveused and any monetary savings that could have occured if you selected an elgible item.
+
 The calculator will then ask if you would like to know your standing compared nationally, Enter Yes or No
+
 Depending on your awnser the calculator will show how your plastic usage compares nationally.
