@@ -1,4 +1,4 @@
-# Plastic-Footprint-Calc
+# Plastic-Consumption-Calc
 A python based calculator that shows your plastic footprint based on your usage of non reusable materials.
 This calculator will take the amount of single use plastics used in a week such as (bags, cups and straws) and provide the amount of plastic you have used in a week, month and year. 
 It will then take that information and compare it to a national, and hopefully worldly average.
