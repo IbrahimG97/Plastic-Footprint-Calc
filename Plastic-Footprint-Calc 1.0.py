@@ -59,5 +59,37 @@ def choosesavings(): #this function allows you to choose between monetary saving
         choosesavings()
 
 
+
+
+
+#need to work on being able to calculate exact decimal values and possibly converting cents to dollar amounts.
+#See if its possible to have a currency placeholder.
+National_average = ['Insert calc for national average'] # add this at the end of the straw, bags and cup function instead as a single one.
+
+#put for or while loop to have the program select a function
+
+#print('Places like Starbucks and Wholefoods provide discounts if you use a reusable bag or mug,', '\n''Do you use Starbucks or Wholefoods?', 'Please awnser with either Starbucks or Wholefoods.')
+#
+#choosesavings()
+def maincalc():  # This is what allows the user to select which calculation they would like to do.
+    boolean = False
+
+    while boolean == False:
+        item = input('Please select an item by typing its name. You can select straws, cups or bags.\n')
+        if 'straws' in item:
+            plastic_straws()
+            boolean = True
+        if 'bags' in item:
+            plastic_bags()
+            boolean = True
+        if 'cups' in item:
+            plastic_cup()
+            boolean = True
+        if boolean == False:
+            print('Please select straws, cups or bags.')
+
+
+maincalc()
+print('The second part of this calculator allows you to see how much money you would save if you used reusable bags or cups at specific locations that offer discounts')
 choosesavings()
 
